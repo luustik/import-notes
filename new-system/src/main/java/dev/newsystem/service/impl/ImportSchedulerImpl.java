@@ -14,7 +14,7 @@ public class ImportSchedulerImpl implements ImportScheduler {
     private final FullImportServiceImpl importService;
 
     @Override
-//    @Scheduled(cron = "0 15 1/2 * * *")
+    @Scheduled(cron = "0 15 1/2 * * *")
     public void scheduleImport() {
         log.info("Запуск планировщика импорта заметок");
         importService.performFullImport();
