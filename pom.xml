@@ -11,6 +11,7 @@
   <url>http://maven.apache.org</url>
   <modules>
     <module>new-system</module>
+    <module>old-system</module>
   </modules>
 
   <properties>

@@ -4,6 +4,7 @@ target/
 !**/src/test/**/target/
 
 /docker/.env
+/old-system
 
 ### IntelliJ IDEA ###
 .idea
