@@ -9,6 +9,10 @@
 
   <name>import-notes</name>
   <url>http://maven.apache.org</url>
+  <modules>
+    <module>new-system</module>
+    <module>old-system</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
